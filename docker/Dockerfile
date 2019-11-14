@@ -2,7 +2,7 @@
 FROM node:8.11.3
 
 # Copy the current directory into the Docker image
-COPY . /project-processor-es
+COPY . .
 
 # Set working directory for future use
 WORKDIR /project-processor-es
