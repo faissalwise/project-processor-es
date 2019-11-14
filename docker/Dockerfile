@@ -7,7 +7,7 @@ COPY . /project-processor-es
 # Set working directory for future use
 WORKDIR /project-processor-es
 
-COPY package.json /project-processor-es
+COPY ../package.json /project-processor-es
 
 # Install the dependencies from package.json
 RUN npm install
